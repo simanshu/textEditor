@@ -92,9 +92,9 @@ class texteditor implements ActionListener {
 
         frame.add(panel);
 
-        // frame.setBounds(200, 100, 1000, 1000);
-        frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
-        frame.setTitle("Simanshu Text Editor");
+        frame.setBounds(200, 100, 1000, 500);
+        // frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
+        // frame.setTitle("Simanshu Text Editor");
         frame.setVisible(true);
         frame.setLayout(null);
     }
